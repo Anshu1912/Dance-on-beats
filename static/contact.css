@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#main{
+    background-image: linear-gradient(rgb(255,255,255), rgb(0,0,0));
+    background-size: cover;
+    height: 88vh;
+}
+.heading{
+    font-size: 40px;
+    margin: 30px;
+}
+.heading h1{
+    font-size: 30px;
+}
+.heading h3{
+    font-size: 25px;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+#photo{
+    width: 60%;
+    height: 70%;
+    margin-top: 130px;
+    margin-left: 350px;
+}
+.gallery{
+    background-image: url("../static/con1.jpg");
+    background-size: cover;
+    height:85%;
+    border: 2px solid white;
+    box-shadow: 20px 5px 15px black;
+    animation: slideshow 15s infinite;
+    animation-delay: 1s;
+}
+@keyframes slideshow{
+    0%{
+        background-image: url("../static/con1.jpg");
+    }
+    10%{
+        background-image: url("../static/con2.webp");
+    }
+    20%{
+        background-image: url("../static/con3.jpg");
+    }
+    30%{
+        background-image: url("../static/con4.webp");
+    }
+    40%{
+        background-image: url("../static/con5.jpg");
+    }
+    50%{
+        background-image: url("../static/con6.jpg");
+    }
+    60%{
+        background-image: url("../static/con7.jpg");
+    }
+    70%{
+        background-image: url("../static/con8.webp");
+    }
+    80%{
+        background-image: url("../static/con9.jpg");
+    }
+    90%{
+        background-image: url("../static/con10.jpg");
+    }
+    100%{
+        background-image: url("../static/con1.jpg");
+    }
+}
+@media only screen and (max-width: 1036px){
+    #photo{
+        width: 100%;
+        margin-left: 5px;
+    }
+}

@@ -1,0 +1,21 @@
+extends base.pug
+
+block scripts 
+   script(src='/static/index.js')
+
+block style 
+    style 
+       include ../static/style.css
+       include ../static/stylereg.css
+
+block content
+      div.container
+           h1 REGISTRATION FORM 
+              form(action="/register", method="post", class="myForm") 
+                    input(type="text", class="myInput", name="name", placeholder="Enter Your Name")
+                    input(type="phone", class="myInput", name="phone", placeholder="Enter Your Phone No")
+                    input(type="email", class="myInput", name="email", placeholder="Enter Your Email")
+                    input(type="text", class="myInput", name="address", placeholder="Enter Your Address")
+                    input(type="text", class="myInput", name="desc", placeholder="One word that describes you")
+                    button(class="btn")
+                        |Submit

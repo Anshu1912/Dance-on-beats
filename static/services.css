@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#main{
+    background-image: linear-gradient(rgb(255,255,255), rgb(0,0,0));
+    background-size: cover;
+    height: 230vh;
+}
+.heading h1{
+    font-size: 40px;
+    margin:13px;
+    padding: 25px;
+    text-decoration: underline;
+}
+.class{
+    font-size: 30px;
+    margin: 40px 100px;
+    color: rgb(110 76 76);
+    border: 2px solid black;
+    box-shadow: 15px 15px 5px rgb(27, 75, 27);
+    padding: 10px;
+    width: 50%;
+    background-color: rgb(168, 252, 168);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#schedule{
+    height: 50vh;
+    margin: 120px;
+    padding: 23px;
+    background-color: black;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.mon{
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  height: 220px;
+  width: 350px;
+  background-color: white;
+  color: black;
+  margin: 20px;
+  padding: 13px;
+  background-color: rgb(172, 248, 223);
+  margin-top: 50px;
+}
+
+.tue{
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 220px;
+    width: 350px;
+    background-color: white;
+    color: black;
+    margin: 20px;
+  padding: 13px;
+  background-color: rgb(116, 206, 176);
+  margin-top: 50px;
+  }
+  .wed{
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 220px;
+  width: 350px;
+    background-color: white;
+    color: black;
+    margin: 20px;
+  padding: 13px;
+  background-color: rgb(172, 248, 223);
+  margin-top: 50px;
+  }
+  .thu{
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 220px;
+  width: 350px;
+    background-color: white;
+    color: black;
+    margin: 20px;
+  padding: 13px;
+  background-color: rgb(116, 206, 176);
+  margin-top: 50px;
+  }
+  .fri{
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 220px;
+    width: 350px;
+    background-color: white;
+    color: black;
+    margin: 20px;
+  padding: 13px;
+  background-color: rgb(172, 248, 223);
+  margin-top: 50px;
+  }
+  .sat{
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 220px;
+  width: 350px;
+    background-color: white;
+    color: black;
+    margin: 20px;
+  padding: 13px;
+  background-color: rgb(116, 206, 176);
+  margin-top: 50px;
+  }
+  .sun{
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 220px;
+    width: 350px;
+    background-color: white;
+    color: black;
+    margin: 20px;
+  padding: 13px;
+  background-color: rgb(172, 248, 223);
+  margin-top: 50px;
+  }
+  .workshop{
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 220px;
+    width: 350px;
+    background-color: white;
+    color: black;
+    margin: 20px;
+  padding: 13px;
+  background-color: rgb(116, 206, 176);
+  margin-top: 50px;
+  }
+
+  ul li{
+      margin-top: 8px;
+      font-style:oblique;
+      font-size: 19px;
+  }
+  
+  #online{
+    font-size: 35px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 175px;
+  }
+ .steps{
+   font-size: 23px;
+   border: 2px solid black;
+   color: white;
+   margin: 42px;
+   padding: 33px 25px;
+   background-color: black;
+   box-shadow: 15px 15px 5px rgb(65, 63, 63);
+   height: 90vh;
+   margin-top: 100px;
+ }
+ .steps p{
+   padding: 8px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-top: 60px;
+ }
+.img{
+  background-image: url("https://dsim.in/blog/wp-content/uploads/2017/11/online-form.jpg");
+  background-size: cover;
+  float: right;
+  margin-right: 20px;
+  height: 520px;
+  width: 1000px;
+}
+@media only screen and (max-width:1592px){
+  #schedule{
+    display: flex;
+    flex-direction: column;
+    height: 195vh;
+  }
+  #main{
+    height: 500vh;
+  }
+  .steps{
+    display: flex;
+    flex-direction: column;
+  }
+  .img{
+    width: 750px;
+    height: 350px;
+  }
+}

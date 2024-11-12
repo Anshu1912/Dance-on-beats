@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#main{
+    background-image: linear-gradient(rgb(255,255,255), rgb(0,0,0));
+    background-size: cover;
+    height: 200vh;
+}
+.heading{
+    margin: 39px 34px;
+    padding: 5px;
+}
+.heading h1{
+    color: black;
+    font-size:35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+.heading h3{
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 8px;
+    margin: 29px;
+}
+.heading p{
+    font-size: 29px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.middle{
+    width: 70%;
+    height: 800px;
+    margin:230px 223px; 
+    padding: 13px;
+}
+.middle h4{
+    font-size: 2rem;
+    text-decoration: underline;
+    padding-bottom: 15px;
+}
+.image{
+    background-image: url("https://images.unsplash.com/photo-1537365587684-f490102e1225?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" );
+    background-size: cover;
+    height:85%;
+    width: 85%;
+    margin-top: 32px;
+    margin-left: 65px;
+    border: 2px solid white;
+    box-shadow: 20px 5px 15px black;
+    animation: slider 15s infinite;
+    animation-delay: 1s;
+}
+@keyframes slider{
+    0%{
+        background-image: url("https://images.unsplash.com/photo-1537365587684-f490102e1225?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+    }
+    10%{
+        background-image: url("https://images.unsplash.com/photo-1508807526345-15e9b5f4eaff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1110&q=80");
+    }
+    20%{
+        background-image: url("https://images.unsplash.com/photo-1522642888367-8d98750c243c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    }
+    30%{
+        background-image: url("https://images.pexels.com/photos/209948/pexels-photo-209948.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    }
+    40%{
+        background-image: url("https://images.pexels.com/photos/690597/pexels-photo-690597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    }
+    50%{
+        background-image: url("https://images.pexels.com/photos/2888802/pexels-photo-2888802.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    }
+    60%{
+        background-image: url("https://bernieh.com/wp-content/uploads/2021/11/hiphop.jpg");
+    }
+    70%{
+       background-image: url("https://wichitadance.com/wp-content/uploads/2017/05/hip-hop3.jpg");
+    }
+    80%{
+       background-image: url("https://www.gannett-cdn.com/presto/2021/06/27/NCDT/ab8b0870-27f4-4e5a-bd51-bda59d0ef31b-ZSC_4489_Indian_Classical_Dance-Graduation_062621.jpg?crop=4167,2344,x1,y117&width=3200&height=1801&format=pjpg&auto=webp");
+    }
+    90%{
+       background-image: url("https://www.pinkvilla.com/files/styles/fbimagesection/public/4_dance_styles_that_are_not_very_common_in_india_social.jpg?itok=aqNrgWwa");
+    }
+    100%{
+        background-image: url("https://images.unsplash.com/photo-1537365587684-f490102e1225?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+    }
+}
+@media only screen and (max-width:1866px){
+    .middle{
+        margin: 20px 5px;
+        width: 100%;
+        background-size: cover;
+    }
+}

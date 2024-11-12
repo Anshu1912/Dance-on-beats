@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#main{
+    background-image: linear-gradient(rgb(255,255,255), rgb(0,0,0));
+    background-size: cover;
+    height: 88vh;
+}
+.heading{
+    font-size: 40px;
+    margin: 30px;
+}
+#img{
+    background: url("../static/info.jpg") no-repeat center center;
+    background-size: cover;
+    height: 464px;
+    width: 679px;
+    margin-right: 110px;
+    float: right;
+    padding: 30px;
+    font-size: 35px;
+}
+p{
+    font-size: 20px;
+    margin: 20px;
+    padding: 13px;
+}

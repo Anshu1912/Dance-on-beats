@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.container{
+    color: white;
+    background: url("../static/dancep1.jpg") no-repeat center center;
+    background-size: cover;
+    height:100%;
+    width: 100%;
+    position: absolute;
+}
+.container h1{
+    font-family: 'Courgette', cursive;
+    font-size: 44px;
+    display: inline-block;
+    margin: 76px 32px;
+    padding: 18px 25px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 32px;
+    padding: 29px 7px;
+    
+}
+
+.myInput{
+    font-size: 16px;
+    padding: 7px;
+    margin: 13px 100px;
+    background: none;
+    color: white;
+    width: 80%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #f09595;
+}
+
+.btn{
+    padding: 9px 26px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: white;
+    background-color: #f09595;
+    cursor: pointer;
+    margin-right: 200px;
+    margin-top: 17px;
+}
+.btn:hover{
+    background-color: black;
+
+}

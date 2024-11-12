@@ -1,0 +1,20 @@
+doctype html
+html 
+   head 
+     title Dance Academy 
+     block scripts 
+     block style
+   body 
+      nav#navbar 
+       ul 
+          div#logo
+              img(src="https://www.pinclipart.com/picdir/middle/567-5671421_ballet-fest-dance-academy-dance-dresses-skirts-costumes.png")
+              |DA
+          li #[a(href='/') Home]
+          li #[a(href="/about") About]
+          li #[a(href="/services") Services]
+          li #[a(href="/info") Info]
+          li #[a(href="/contact") Contact]
+      block content 
+      footer#footerSection 
+         h2 Copyright © 2022 danceacademy.com | All Rights Reserved

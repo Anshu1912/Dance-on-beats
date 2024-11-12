@@ -1,0 +1,63 @@
+extends base.pug
+
+block scripts 
+   script(src='/static/index.js')
+
+block style 
+    style 
+       include ../static/style.css
+       include ../static/services.css
+block content
+    div#main
+       div.heading
+          h1 ACADEMY CLASSES
+          div.class
+            h2 WEEKLY SCHEDULE AND WORKSHOPS 
+       div#schedule
+         div.mon
+           ul 
+             |MONDAY
+             li Contem 
+             li Hip-Hop 
+         div.tue
+            ul 
+             |TUESDAY
+             li Contem 
+             li Hip-Hop 
+         div.wed
+            ul 
+             | WEDNESDAY
+             li Contem 
+             li Hip-Hop 
+         div.thu
+            ul 
+             | THURSDAY
+             li Contem 
+             li Hip-Hop
+         div.fri
+            ul 
+             | FRIDAY
+             li Contem 
+             li Hip-Hop 
+         div.sat
+            ul 
+             | SATURDAY
+             li Contem 
+             li Hip-Hop 
+         div.sun
+            ul 
+             | SUNDAY
+             li Contem 
+             li Hip-Hop
+         div.workshop
+            ul 
+             | WORKSHOP
+             li Contem 
+             li Hip-Hop   
+       div#online 
+           h1 Introducing Online Classes: 
+       div.steps 
+          div.img
+          p Step 1: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, vitae.
+          p Step 2: Lorem ipsum dolor sit amet.
+          p Step 3: Lorem ipsum, dolor sit amet consectetur adipisicing elit.          
